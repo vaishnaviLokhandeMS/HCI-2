@@ -1,0 +1,84 @@
+/* General Styles for Add Item Page */
+.add-item {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+.add-item-header {
+    background-color: #3a3f51; /* Dark grey-blue header */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #2c3242;
+}
+
+.add-item-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Body Styles */
+.add-item-body {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.add-item-body form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #61dafb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4db8e2;
+}
+
+/* Footer Styles */
+.add-item-footer {
+    background-color: #3a3f51; /* Dark grey-blue footer */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #2c3242;
+}
+
+.add-item-footer p {
+    margin: 0;
+    font-size: 1em;
+}
